@@ -1,2 +1,15 @@
+#btn {
+    background-color: black; /* Initial Background Colour */
+    color: white; /* Initial Font Colour */
+    border-radius: 5px; /* Initial Border Radius */
+    border: none; /* No border */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
 
-/* Your CSS Code here. */
+#btn:hover {
+    background-color: yellow; /* Hover Background Colour */
+    color: black; /* Hover Font Colour */
+    border-radius: 30px; /* Hover Border Radius */
+}
